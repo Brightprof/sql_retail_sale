@@ -27,11 +27,12 @@ specific business questions through SQL queries.
 for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, 
 cost of goods sold (COGS), and total sale amount.
 
----CREATING DATABASE
+**---CREATING DATABASE**
 ```sql
 CREATE DATABASE Sql_project_p1;
-
---- CREATING  TABLE
+```
+**-- CREATING  TABLE**
+```sql
 CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
@@ -49,9 +50,9 @@ CREATE TABLE retail_sales
 ```
 
 
-2. DATA EXPLORATION AND CLEANING
+**2. DATA EXPLORATION AND CLEANING**
 
-**Checking all available data
+**Checking all available data**
 ```sql
 SELECT * FROM [retail_sales ]
 ```
@@ -177,7 +178,7 @@ FROM (
 )t  WHERE RANK = 1
 ```
 
-8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+**8. Write a SQL query to find the top 5 customers based on the highest total sales **:
 ```sql
 SELECT TOP 5
 	customer_id AS CUSTOMER,
@@ -187,7 +188,7 @@ GROUP BY customer_id
 ORDER BY SUM(total_sale) DESC
 ```
 
-9. **Write a SQL query to find the number of unique customers who purchased items from each category.**:
+** 9. Write a SQL query to find the number of unique customers who purchased items from each category.**:
 ```sql
 SELECT 
 category,
