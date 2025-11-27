@@ -104,8 +104,8 @@ OR total_sale IS NULL;
 
 
 
-3. Data Analysis & Findings
-The following SQL queries were developed to answer specific business questions:
+**3. Data Analysis & Findings**
+**The following SQL queries were developed to answer specific business questions:*
 
 1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05**:
 ``` sql
@@ -241,3 +241,4 @@ This project is part of my portfolio, showcasing the SQL skills essential for da
 
 ##Credits: Dataset sourced from Zero Analyst on YouTube.
 Project adapted and enhanced for personal learning
+
