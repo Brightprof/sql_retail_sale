@@ -3,7 +3,6 @@
 ## Project Overview
 
 **Project Title**: Retail Sales Analysis  
-**Level**: Beginner  
 **Database**: `sql_project_p1`
 
 This project is designed to demonstrate SQL skills and techniques typically used 
@@ -239,6 +238,7 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 ## Author
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
 
-##Credits: Dataset sourced from Zero Analyst on YouTube.
+##Credits: Dataset sourced from Zero Analyst.
 Project adapted and enhanced for personal learning
+
 
